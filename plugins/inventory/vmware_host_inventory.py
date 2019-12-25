@@ -70,7 +70,7 @@ DOCUMENTATION = '''
             - These properties will be populated in hostvars of the given host.
             - Each value in the list specifies the path to a specific property in host object.
             type: list
-            default: [ 'name', 'summary.runtime.connectionState', 'summary.runtime.inMaintenanceMode', 'customValue'
+            default: [ 'name', 'summary.runtime.connectionState', 'summary.runtime.inMaintenanceMode'
                        ]
             version_added: "2.9"
         group_by_cluster:
